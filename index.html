@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blueprint Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Logo</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li id="auth-links">
+            <a href="login.html" class="auth-link">Login</a>
+            <a href="signup.html" class="auth-link">Sign Up</a>
+          </li>
+          <li id="user-menu" style="display: none;">
+            <a href="profile.html" id="profile-link">My Profile</a>
+            <a href="#" id="logout-link">Logout</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Welcome to Our Website</h2>
+        <p>This is a hero section with a compelling message about our company or product.</p>
+        <button class="btn">Learn More</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <h2 class="section-title">FEATURES</h2>
+      <div class="features-grid">
+        <div class="feature">
+          <h3>Feature 1</h3>
+          <p>Description of the first amazing feature that makes our product stand out.</p>
+        </div>
+        <div class="feature">
+          <h3>Feature 2</h3>
+          <p>Description of another great feature that users will love about our product.</p>
+        </div>
+        <div class="feature">
+          <h3>Feature 3</h3>
+          <p>One more incredible feature that demonstrates the value of our offering.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="blog">
+    <div class="container">
+      <h2 class="section-title">Blog</h2>
+      <div class="blog-posts">
+        <article class="post">
+          <h3>Latest Blog Post Title</h3>
+          <p class="post-meta">Posted on June 15, 2023</p>
+          <p>A brief excerpt from the blog post to entice readers to click and read more...</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+        <article class="post">
+          <h3>Another Interesting Article</h3>
+          <p class="post-meta">Posted on June 10, 2023</p>
+          <p>A short preview of this article's content that will make visitors want to read the full post...</p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h3>Logo</h3>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <p>Email: info@example.com</p>
+          <p>Phone: (123) 456-7890</p>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2023 Blueprint Website. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <script type="module" src="index-auth.js"></script>
+</body>
+</html>
